@@ -17,11 +17,11 @@ Scope: Local system inspection and basic network diagnostics. No penetration tes
 
 **Tools and Technologies**
 
-- Kali Linux — Linux operating system used for the tests
-- Linux terminal — command-line interface for system inspection
-- Virtual machine — environment hosting Kali Linux
-- ping — ICMP connectivity and round-trip-time testing
-- Linux utilities — whoami, hostname, pwd, uname, lscpu, free, df, and uptime
+- Kali Linux - Linux operating system used for the tests
+- Linux terminal - command-line interface for system inspection
+- Virtual machine - environment hosting Kali Linux
+- ping - ICMP connectivity and round-trip-time testing
+- Linux utilities - whoami, hostname, pwd, uname, lscpu, free, df, and uptime
   
 **Configuration Steps**
 1. Verify system identity and working directory
