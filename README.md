@@ -1,6 +1,8 @@
 Linux System Information & Network Diagnostics
 A practical examination of Linux system configuration, hardware resources, and network connectivity in a Kali Linux virtual machine. The project documents command-line diagnostics, captured terminal evidence, and observed network performance.
-Table of Contents
+
+**Table of Contents**
+
 - Project Overview
 - Tools and Technologies
 - Configuration Steps
