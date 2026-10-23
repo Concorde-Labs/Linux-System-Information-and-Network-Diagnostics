@@ -9,10 +9,12 @@ Table of Contents
 - Author
 
 **Project Overview**
+
 This project examines a Kali Linux virtual machine using built-in Linux commands. The work covers identification of the active user and working directory, inspection of operating system and hardware information, review of memory and disk usage, and testing of connectivity to a public IP address and a domain name.
 Scope: Local system inspection and basic network diagnostics. No penetration testing, vulnerability scanning, or security audit was performed.
 
 **Tools and Technologies**
+
 - Kali Linux — Linux operating system used for the tests
 - Linux terminal — command-line interface for system inspection
 - Virtual machine — environment hosting Kali Linux
@@ -56,6 +58,7 @@ Results: The domain resolved to 142.250.139.138 during the test. All 4 packets w
 
 
 **Results and Findings**
+
 Diagnostic area	Observation
 Active user / hostname	kali / kali
 Working directory	/home/kali
