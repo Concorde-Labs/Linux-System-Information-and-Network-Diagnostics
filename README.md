@@ -84,3 +84,24 @@ Both ping tests succeeded during the observed test window. These results show re
 **Author**
 
 Concord Ekwonna
+
+
+## Project Screenshots
+
+### System Identity
+![System Identity](Screenshots/system-identity.png)
+
+### Operating System and CPU Information
+![OS and CPU Information](Screenshots/os-and-cpu-information.png)
+
+### Memory and Disk Usage
+![Memory and Disk Usage](Screenshots/memory-and-disk-usage.png)
+
+### System Uptime
+![System Uptime](Screenshots/system-uptime.png)
+
+### IP Connectivity
+![IP Connectivity](Screenshots/ip-connectivity.png)
+
+### DNS Connectivity
+![DNS Connectivity](Screenshots/dns-connectivity.png)
