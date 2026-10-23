@@ -69,5 +69,7 @@ Security Relevance
 - System visibility: Identifying the active user, host, kernel, and resources provides a starting point for operational review and troubleshooting.
 - Network diagnostics: Comparing IP-based and domain-based ping tests helps distinguish basic reachability checks from name-resolution checks.
 - Evidence-based reporting: Terminal screenshots and recorded measurements support reproducible documentation of observed system behavior.
+  
 Author
+
 Concord Ekwonna
