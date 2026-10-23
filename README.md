@@ -7,16 +7,19 @@ Table of Contents
 - Results and Findings
 - Security Relevance
 - Author
-Project Overview
+
+**Project Overview**
 This project examines a Kali Linux virtual machine using built-in Linux commands. The work covers identification of the active user and working directory, inspection of operating system and hardware information, review of memory and disk usage, and testing of connectivity to a public IP address and a domain name.
 Scope: Local system inspection and basic network diagnostics. No penetration testing, vulnerability scanning, or security audit was performed.
-Tools and Technologies
+
+**Tools and Technologies**
 - Kali Linux — Linux operating system used for the tests
 - Linux terminal — command-line interface for system inspection
 - Virtual machine — environment hosting Kali Linux
 - ping — ICMP connectivity and round-trip-time testing
 - Linux utilities — whoami, hostname, pwd, uname, lscpu, free, df, and uptime
-Configuration Steps
+  
+**Configuration Steps**
 1. Verify system identity and working directory
 Executed:
 whoami
@@ -51,7 +54,8 @@ Executed:
 ping -c 4 google.com
 Results: The domain resolved to 142.250.139.138 during the test. All 4 packets were received with 0% packet loss, and the average round-trip time was 80.973 ms.
 
-Results and Findings
+
+**Results and Findings**
 Diagnostic area	Observation
 Active user / hostname	kali / kali
 Working directory	/home/kali
@@ -65,11 +69,13 @@ Domain resolution	142.250.139.138 at test time
 
 The domain test's higher average latency was influenced by an initial response of approximately 244 ms, while the subsequent responses were approximately 25–28 ms. The cause of this first-response delay was not established by the test.
 Both ping tests succeeded during the observed test window. These results show reachability and successful domain resolution for the tested destinations, but do not establish overall network reliability or security.
-Security Relevance
+
+**Security Relevance**
+
 - System visibility: Identifying the active user, host, kernel, and resources provides a starting point for operational review and troubleshooting.
 - Network diagnostics: Comparing IP-based and domain-based ping tests helps distinguish basic reachability checks from name-resolution checks.
 - Evidence-based reporting: Terminal screenshots and recorded measurements support reproducible documentation of observed system behavior.
   
-Author
+**Author**
 
 Concord Ekwonna
